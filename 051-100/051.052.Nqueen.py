@@ -35,7 +35,7 @@ class Solution:
         dfs(chess_b=chessboard,step=0)
         return len(out_)
 
-print(Solution().solveNQueens(12))
+print(Solution().solveNQueens(5))
 # s = '123'
 # s[1] = '3'
 # print(s)

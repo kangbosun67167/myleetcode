@@ -19,7 +19,7 @@ class Solution:
             print(dp)
         return dp[-1]
 
-nums = [2,3,1,1,0,0,1,4]
+nums = [2,3,1,1,2,0,1,4]
 Solution().canJump(nums)
 
 
